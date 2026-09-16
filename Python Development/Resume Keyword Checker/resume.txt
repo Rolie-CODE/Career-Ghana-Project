@@ -1,0 +1,3 @@
+python developer with experience building REST APIs using FastAPI.
+Worked with PostgreSQL,   and Git. Familiar    with Docker,  and testing.
+Hello i am a good boy
