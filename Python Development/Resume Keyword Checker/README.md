@@ -23,13 +23,13 @@ The program uses only Python's standard library.
 ## How It Works
 
 1. `main.py` reads the resume from `resume.txt`.
-2. The important keywords are currently written manually in a list inside `main.py`.
-3. The resume and keywords are normalized to make matching case-insensitive and less affected by punctuation or extra spaces.
-4. The program displays found keywords, missing keywords, totals, and a match percentage.
+2. `main.py` uses a reusable catalog of possible technical terms to extract requirements from the job description.
+3. The resume and requirements are normalized to make matching case-insensitive and less affected by punctuation or extra spaces.
+4. The program displays found requirements, missing requirements, totals, and a match percentage.
 
 This project does not use machine learning, NLP libraries, databases, APIs, or web scraping.
 
-`job_description.txt` is currently a reference file only. The program does not read or extract keywords from it yet.
+`job_description.txt` is read by the program. The extractor checks which terms from the technical catalog appear in the description.
 
 ## How to Run
 
@@ -46,7 +46,7 @@ python main.py
        RESUME KEYWORD CHECKER
 ========================================
 
-Keywords Found:
+Job Requirements Found:
 + Python
 + FastAPI
 + PostgreSQL
@@ -55,16 +55,16 @@ Keywords Found:
 + REST API
 + Testing
 
-Keywords Missing:
+Missing Requirements:
 - Django
 - AWS
 - Linux
 
 ----------------------------------------
-Total Keywords: 10
-Keywords Found: 7
-Keywords Missing: 3
-Match Percentage: 70.00%
+Total Requirements: 10
+Requirements Found: 8
+Requirements Missing: 2
+Match Percentage: 80.00%
 ----------------------------------------
 ```
 
@@ -94,16 +94,15 @@ This project practices:
 
 ## Future Improvement Plan
 
-The next major improvement will be to remove the hardcoded keyword list from `main.py`.
+The next improvements will be to expand the rule-based technical-term catalog and make the extraction rules more flexible.
 
 ### Planned Workflow
 
-1. Read the job description from `job_description.txt`.
-2. Store the job description in a variable.
-3. Extract likely requirements from the description using simple rules from Python's standard library.
-4. Normalize the extracted requirements in the same way as the resume text.
-5. Compare the extracted requirements with the resume.
-6. Print the found requirements, missing requirements, and match percentage.
+1. Improve the technical-term catalog and phrase aliases.
+2. Extract more likely requirements from the job description using standard-library rules.
+3. Normalize the extracted requirements in the same way as the resume text.
+4. Compare the extracted requirements with the resume.
+5. Print the found requirements, missing requirements, and match percentage.
 
 ### Possible Implementation Steps
 

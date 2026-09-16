@@ -1,0 +1,4 @@
+We are looking for a Python developer with experience in FastAPI,
+PostgreSQL, Docker, REST APIs, Git, software testing,  AWS
+The candidate should also understand Linux.
+Experience with unit testing is preferred.
