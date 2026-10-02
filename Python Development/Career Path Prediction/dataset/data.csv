@@ -1,16 +1,37 @@
 Logical_Thinking,Coding_Skills,Public_Speaking,Creativity,Preferred_Environment,Academic_Background,Target_Career
-9,8,3,4,Office,Computer Science,Software Engineer
-8,9,2,5,Remote,Computer Science,Backend Developer
-5,3,8,9,Hybrid,Arts & Design,UI/UX Designer
-4,2,9,7,Office,Communications,Public Relations Specialist
-9,5,6,3,Office,Mathematics,Data Analyst
-10,7,5,4,Hybrid,Statistics,Data Scientist
-3,1,8,10,Remote,Marketing,Digital Marketer
-6,8,4,5,Remote,Information Technology,DevOps Engineer
-8,4,7,6,Office,Business Administration,Product Manager
-2,1,9,8,Hybrid,Psychology,Human Resources Specialist
-9,9,3,3,Remote,Computer Science,Full Stack Engineer
-4,2,8,8,Office,Arts & Design,Creative Director
-7,6,5,5,Office,Information Technology,IT Support Specialist
-9,3,7,4,Hybrid,Finance,Financial Analyst
-5,2,9,6,Office,Business Administration,Sales Executive
+9,9,3,4,Remote,Computer Science,Software Engineer
+8,10,2,5,Hybrid,Computer Science,Software Engineer
+10,8,4,3,Office,Information Technology,Software Engineer
+7,9,3,5,Remote,Information Technology,Software Engineer
+9,8,5,4,Hybrid,Mathematics,Software Engineer
+8,9,4,6,Office,Computer Science,Software Engineer
+9,6,6,4,Office,Mathematics,Data Analyst
+8,5,5,5,Hybrid,Statistics,Data Analyst
+10,7,4,3,Remote,Finance,Data Analyst
+7,6,7,4,Office,Business Administration,Data Analyst
+9,5,5,6,Hybrid,Statistics,Data Analyst
+8,7,4,4,Remote,Mathematics,Data Analyst
+10,9,4,4,Remote,Statistics,Data Scientist
+9,8,3,5,Hybrid,Computer Science,Data Scientist
+8,10,5,4,Office,Mathematics,Data Scientist
+10,8,5,3,Hybrid,Computer Science,Data Scientist
+9,9,2,6,Remote,Information Technology,Data Scientist
+8,7,6,5,Office,Statistics,Data Scientist
+5,4,6,10,Hybrid,Arts & Design,UI/UX Designer
+4,3,5,9,Remote,Arts & Design,UI/UX Designer
+6,5,7,8,Office,Communications,UI/UX Designer
+5,2,6,9,Hybrid,Arts & Design,UI/UX Designer
+7,4,4,10,Remote,Marketing,UI/UX Designer
+4,5,8,8,Office,Arts & Design,UI/UX Designer
+5,4,9,8,Remote,Marketing,Digital Marketer
+4,3,8,9,Hybrid,Communications,Digital Marketer
+6,5,7,8,Office,Business Administration,Digital Marketer
+5,2,10,7,Hybrid,Marketing,Digital Marketer
+3,4,8,10,Remote,Arts & Design,Digital Marketer
+7,5,9,7,Office,Communications,Digital Marketer
+5,2,10,6,Office,Communications,Public Relations Specialist
+4,3,9,7,Hybrid,Communications,Public Relations Specialist
+6,1,8,6,Remote,Business Administration,Public Relations Specialist
+3,2,10,8,Office,Marketing,Public Relations Specialist
+7,4,9,5,Hybrid,Psychology,Public Relations Specialist
+5,3,8,9,Remote,Communications,Public Relations Specialist
